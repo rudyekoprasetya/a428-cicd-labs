@@ -12,10 +12,9 @@ pipeline {
             }
         }
 	stage('Test') {
-            steps {
-                sh './jenkins/scripts/test.sh'
-            }
-        }
-
+            steps {
+                sh './jenkins/scripts/test.sh'
+            }
+        }
     }
 }
